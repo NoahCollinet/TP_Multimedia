@@ -1,0 +1,36 @@
+TP1 : Prise en main d'une librairie de traitement d'images
+
+1_Seuillage d'une image au format pgm
+
+a)
+Les fichiers permettent de :
+		-flouter une image qui est uniquement en niveau de gris	(blur)
+		-seuiller une image qui est en couleur 	(test_couleur)
+		-teste si c'est une image bien formée	(image_ppm)
+		-seuiller une image qui est en niveau de gris	(test_gris)
+
+b)Ce sont différents formats de fichiers graphiques, valeur de codage des couleurs < 65 536
+	-image ppm : pixmap file format 	(images en couleur)
+	-image pgm : graymap file format 	(images en niveau de gris)
+
+c)Aide CPP:
+Pour compiler :		g++ nomdufichier.cpp -o nomexecutable
+On compile avec 	g++ test_gris.cpp -o test_gris
+
+d) 
+On teste avec la commande 	./test_gris nomimage nomimageoutput seuil
+Je fais plusieurs tests :	./test_gris 08.pgm 08_1.pgm 163
+
+
+
+
+
+
+
+
+
+
+
+
+
+
